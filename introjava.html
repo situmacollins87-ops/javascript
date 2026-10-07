@@ -1,0 +1,111 @@
+Html -skeleton structure of a webpage
+CSS -styling and aesthetics
+JS-user interactivity and reactivity
+JS is a programming language that runs into a brower used to make html pages dynamic 
+its two core purposes
+*user interactivity 
+-allows user to interact with page -anything any action that user can perform when using a webpage e.g click, scroll, focus 
+*reactivity -content is updated automatically without reloading manually
+* where to write java script 
+-internal js- can come either in the head or body section right above the closing body tag 
+-external js-a separate js file linked to html via a script src attribute 
+-best used when there is alot of js to write or hwen a developer wants better code oragnaization/management
+ VARIABLES
+ -variable is a named container used to store values
+ eg x=10 means x stores the value of 10
+ variable naming rules
+ -variables only contain letters numbers underscores or $
+ -varaible can only begin with letters undercores or $
+ -variable names cannot be reserved key words 
+ -uppercase and lower case programming implies different variables. case matters
+ -variable names should always try and be meaningful 
+ * Declaring variables in js
+ 1.let keyword- used to declare variables that can be reassigned(changing the value)
+ 2.const keyword-used to declare variables whose values cannot be changed once assigned
+ 3.var keyword-works like let but is outdated. was used in older browser versions 
+
+ ##how t out put in js -we use console.log() fucntion. its outputs in the console window of the browser
+
+ JS DATA TYPES
+ -strings- set of alphanumeric characters enclosed in single or double quotes
+ _numbers-acoounts for both intergers and floats 
+ -boolean -represents truth values i.e true or flase
+
+ #to check datatype
+ we use typeof() function 
+
+ STRING OPERATIONS and methods
+ 1.Concatenation 
+ -joining and combining two or more strings
+ *+ operator
+ *concat()
+ 2. template literals (its equivalent to )
+used to embed variables in a string uses back ticks and dollar signs 
+3.Accessing characters in a string and determining number of characters in a string
+use indexing (even space is a character starts with 0)
+i.e js has no negative indexing (rem indexing is position. indexing is offset or distance from the base element which is just the first element )
+-determining number of characters in a string 
+*lenghth
+-slicing -extraction of a portion in a string 
+always provide and ending point 
+4.To upper case and to lower case
+5.includes()checks if it includes a charater and returns boolean
+6.starts with ()checks whether a string starts with a specific character or set of characters 
+7.ends with() checks if a string ends with ,,,,,, and retirns boolean
+8.trim() used to remove white spaces. in python we use strip
+r and L trims
+
+NUMERIC OPERATORS
+addition +
+substarction-
+multiplication*
+division/
+modulus%
+exponent e.g 2**4=2*2*2*2
+increament use num++
+ and decreament num--
+
+ Split() method-divides a string into two or more substrings depending on a splitter (or divider) eg
+ let text='How are you doing today';
+ const myArray=text.split('');
+ let word=myArray[1];
+
+ replace()method-searches a string for a specified value (or reguklar expression) and returns a new string with the replaced content
+-syntax
+let text='I like apples and I like oranges
+let result=text.replace('like','love');
+console.log(result);
+
+JS OPERATORS
+1. Arithmetic-used in arithmetic functions e.g numeric oerators above 
+2. comparison
+==loose equality sign
+===strict equality sign 
+!=loose inequality sign
+!==strict inequality sign
+<,>,>=,<=
+3.logical
+4. Assignment operators-assign values to variables
+= is the default assignment operator 
+
+
+logical operators -used for logical operations
+ *and- returns true only if all conditions are true
+ *or-returns true if atleast one condition is true 
+ *not-negates both boolean values
+
+ !!!!!
+ + has two functions
+   strings(concat)
+   numeric values(sum)
+*polymerism-where an object takes more than one form/ function 
+   method and operator overloading
+   operator overloading : an operator has more than one funtion e.g (+)
+
+   "5",5=5+"5="5"="5"="55"
+   5*"5"=5*5=25
+
+*type coarcion vs type conversion
+type coaercion-the automatic/implicit conversionof data type from one type to another -done by the program/language 
+type conversion-the explicit conversion of data from one type to another by programmer
+

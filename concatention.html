@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>string methods</p>
+    </div>
+    <script>
+        //concatention 
+        let first_name='John'
+        let last_name='Doe'
+        let full_name=first_name + last_name
+        let full_name2=first_name.concat(last_name)
+        console.log(full_name)
+        console.log(full_name2)
+    //temperal literals 
+    let str=`my name is ${full_name}`
+    console.log(str)
+    //accessing characters
+    console.log(first_name[0])
+    //length 
+    console.log(first_name.length)
+    //slicing 
+    let x='this is a test string'
+    console.log(x.slice(0,7))
+    //to upper case and to lower case
+    console.log(x.toUpperCase())
+    console.log(x.toLowerCase())
+    //includes starts with ends with 
+    console.log(x.includes('x'))
+    console.log(x.startsWith('T'))
+    console.log(x.endsWith('ing'))
+    //trim
+    let y ="      jack     .     "
+    console.log(y.trim())
+    console.log(y.trimEnd())
+    console.log(y.trimStart())
+    //increament and decreament
+    let num=23
+    num++
+    num++
+    num-
+    num-
+    console.log(num)
+
+
+    </script>
+    <div>
+        <p>js operators</p>
+    </div>
+    <script>
+        let a  =5
+        a=a+10
+        console.log(a)
+
+        let c=5
+        c +=10
+        console.log(c)
+
+        let value1=5
+        let value2="5"
+        let sum=value1+value2
+        let multiply=value1*value2
+        let div=value1/value2
+
+        console.log(sum)
+        console.log(multiply)
+        console.log(div)
+        
+    </script>
+    
+</body>
+</html>
