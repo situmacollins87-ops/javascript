@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p> cinditional statments</p>
+    </div>
+    <script>
+        //Create a variable and console log whether a number is odd or even
+        let number=5;
+        if (number%2===0){
+            console.log(number + "is even.");
+        }else{
+            console.log(number + "is odd.");
+        }
+
+        //Create 3 variables and console log the largest of them. Assume that the user would not enter any two numbers which are the same.
+        const num1=20;
+        const num2=25;
+        const num3=30;
+        if (num1>num2 && num1>num3){
+            console.log(num1);
+        
+        }else if (num2>num1 && num2> num3){
+            console.log(num2)
+        }else{
+            console.log(num3)  
+        }
+        //Take as input from a user the temperature if the temperature is above 30°C display “The temperature is too high”,if the temperature   is above 15 display “Normal temperature” otherwise display “Cold temperature”
+        let input=prompt("enter temperature in degrees celcius");
+        let temperature=Number(input);
+        if(temperature>35){
+            console.log("temeprature too high");
+        }else if (temperature>15){
+            console.log("temperature is normal");
+        }else{
+            console.log("temperature cold");
+            
+        }
+        //Write a js program that checks if a variable x is between 10 and 20 (inclusive) and if another variable y is greater than 100. If both conditions are true, display"Conditions met", otherwise display"Conditions not met"
+        if (x>=10 && x<=20 && y>100){
+            console.log("conditions met");
+        }else{
+            console.log("conditions not met");
+        }
+        
+        //Write a js program that checks if a variable password is equal to the string "secret123". If it is, display "Access   granted", otherwise display"Access denied"
+        let password="input your password"
+        if (password==="secret123"){
+            console.log("Access granted")
+        }else{
+            console.log('Access declined')
+        }
+    
+    </script>
+
+    
+</body>
+</html>
