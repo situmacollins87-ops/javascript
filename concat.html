@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>concat</div>
+    <script>
+        //concat() method is an immutable operation used to join two or more strings or arrays and return a new combined result without changing the original data
+        //e.g
+        let text1 = "sea";
+        let text2 = "food";
+        let result = text1.concat(text2);
+        //The concat() method joins two or more strings.
+
+        //The concat() method does not change the existing strings.
+
+        //The concat() method returns a new string.
+        //string.concat(string1, string2, ..., stringX)
+        //merging arrays
+        const myGirls = ["Cecilie", "Lone"];
+        const myBoys = ["Emil", "Tobias", "Linus"];
+
+        // Merges both arrays together
+        const myChildren = myGirls.concat(myBoys);
+
+        console.log(myChildren);
+        // Output: ["Cecilie", "Lone", "Emil", "Tobias", "Linus"]
+        //REVERSAL()METHOD
+        //The reverse() method reverses the order of the elements in an array.
+        //The reverse() method overwrites the original array.
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fruits.reverse();
+        console.log(fruits);
+        //The sort() method sorts an array alphabetically:
+        const basket = ["Banana", "Orange", "Apple", "Mango"];
+        basket.sort();
+        console.log(basket)
+        //TASK slide 71
+        //always remember // Syntax: splice(startIndex, deleteCount, itemToInsert)
+        const elements=['red','green','blue']
+        elements.splice(1,1,'pink')
+        console.log(elements)
+        //lenght of the array
+        console.log(arr.lenghth)
+        //use pop method to remove last element using pop()
+        const shell=['red','green','blue'];
+        shell.pop();
+
+
+
+    </script>
+</body>
+
+</html>
